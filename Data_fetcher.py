@@ -1,3 +1,8 @@
+#This script can be used to get data from Cisco and Juniper devices about their hardware model, IOS version, uptime etc.
+#All you need is to create file with host ips, as hosts.txt and store in same location from where you execute this script
+#you may need to install few modules using pip3
+#pip3 install paramiko, pip3 install tabulate, pip3 install termcolor
+
 import paramiko
 import getpass
 from paramiko import client, ssh_exception
