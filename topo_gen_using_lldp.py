@@ -5,9 +5,9 @@ from datetime import datetime
 from openpyxl import Workbook
 from openpyxl.styles import Alignment
 
-USERNAME = "regress"
-PASSWORD = "MaRtInI"
-START_DEVICE = "10.13.124.163"
+USERNAME = "user"
+PASSWORD = "Password"
+START_DEVICE = "10.13.10.13"
 OUTPUT_FILE = "lldp_topology.xlsx"
 
 visited = set()
