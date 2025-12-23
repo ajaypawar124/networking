@@ -8,8 +8,8 @@ from docx.oxml.ns import qn
 from datetime import datetime
 
 # ============ CONFIGURATION ============
-USERNAME = input("Provide username for devices [default: regress]: ") or "regress"
-PASSWORD = getpass("Provide password for devices [enter for regress]: ") or "MaRtInI"
+USERNAME = input("Provide username for devices [default: user]: ") or "user"
+PASSWORD = getpass("Provide password for devices [enter for user]: ") or "Password"
 
 COMMANDS = [
     "show version",
